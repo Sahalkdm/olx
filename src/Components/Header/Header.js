@@ -50,11 +50,11 @@ function Header() {
             navigate('/login')
           }}>Logout</span>}
         <div className="sellMenu">
-          <SellButton></SellButton>
-          <div className="sellMenuContent">
+          <a href='/create'><SellButton></SellButton></a>
+          <a href='/create'><div className="sellMenuContent">
             <SellButtonPlus></SellButtonPlus>
             <span>SELL</span>
-          </div>
+          </div></a>
         </div>
       </div>
     </div>

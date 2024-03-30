@@ -81,9 +81,9 @@ const handleSubmit =(e)=>{
           />
           <br />
           <br />
-          <button>Signup</button>
+          <button type='submit'>Signup</button>
         </form>
-        <a>Login</a>
+        <a href='/login'>Login</a>
       </div>
     </div>
   );
